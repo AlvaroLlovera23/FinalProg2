@@ -1,0 +1,103 @@
+{
+  "libros": [
+    {
+      "titulo": "Platero y Yo",
+      "autor": "Juan Ramon Jimenez",
+      "id": 1
+    },
+    {
+      "titulo": "Cien Anios de Soledad",
+      "autor": "Gabriel Garcia Marquez",
+      "id": 2
+    },
+    {
+      "titulo": "El Tunel",
+      "autor": "Ernesto Sabato",
+      "id": 3
+    },
+    {
+      "titulo": "Mi Planta de Naranja Lima",
+      "autor": "Jose Mauro de Vasconcelos",
+      "id": 4
+    },
+    {
+      "titulo": "Martin Fierro",
+      "autor": "Jose Hernandez",
+      "id": 5
+    }
+  ],
+  "alumnos": [
+    {
+      "dni": "34286865",
+      "nombre": "Llovera Olmedo Alvaro Gabriel",
+      "domicilio": "SMDT",
+      "id": 1
+    },
+    {
+      "dni": "41059937",
+      "nombre": "Molinero Tobias",
+      "domicilio": "Yerba Buena",
+      "id": 2
+    },
+    {
+      "dni": "41256880",
+      "nombre": "Majoli Facundo",
+      "domicilio": "SMDT",
+      "id": 3
+    },
+    {
+      "dni": "39478795",
+      "nombre": "Lopez Matias",
+      "domicilio": "SMDT",
+      "id": 4
+    },
+    {
+      "dni": "36544927",
+      "nombre": "Ramallo Bautista",
+      "domicilio": "Yerba Buena",
+      "id": 5
+    }
+  ],
+  "prestamos": [
+    {
+      "fechaEntrega": "09-11-2022",
+      "fechaDevolucion": "DEVUELTO",
+      "libroId": "3",
+      "alumnoId": "2",
+      "deudor": true,
+      "id": 1
+    },
+    {
+      "fechaEntrega": "13-01-2023",
+      "fechaDevolucion": "NO DEVUELTO",
+      "libroId": "2",
+      "alumnoId": "1",
+      "deudor": true,
+      "id": 2
+    },
+    {
+      "fechaEntrega": "15-06-2021",
+      "fechaDevolucion": "NO DEVUELTO",
+      "libroId": "3",
+      "alumnoId": "5",
+      "deudor": true,
+      "id": 3
+    },
+    {
+      "fechaEntrega": "04-03-2022",
+      "fechaDevolucion": "DEVUELTO",
+      "libroId": "4",
+      "alumnoId": "1",
+      "deudor": true,
+      "id": 4
+    },
+    {
+      "fechaEntrega": "20-02-2023",
+      "fechaDevolucion": "NO DEVUELTO",
+      "libroId": "5",
+      "alumnoId": "3",
+      "deudor": true,
+      "id": 5
+    }
+  ]
+}
