@@ -12,6 +12,7 @@ let deudores = []
 listaAlumnos()
 
 function guardarAlumnos() {
+
     axios.post("http://localhost:3000/alumnos", { dni: dni.value, nombre: nombre.value, domicilio: domicilio.value })
         .then(function (res) {
             listaAlumnos()
