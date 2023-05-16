@@ -6,7 +6,7 @@ const btnGuardarA = document.getElementById("btnGuardarA")
 const btnEditarA = document.getElementById("btnEditarA")
 const btnCancelarA = document.getElementById("btnCancelarA")
 
-let auxiliar
+let auxiliar;
 let idAux
 let deudores = []
 listaAlumnos()
